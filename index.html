@@ -50,13 +50,17 @@
 	<span class="dot" onclick="currentSlide(3)"></span>
 	<span class="dot" onclick="currentSlide(4)"></span>
   </div>
-  <div id="title">
-	<input id="nameTitle" placeholder="Type your title for image..."><br><br>
-	<button onclick="titleImage()">Add</button>
-	<button onclick="toggleText(this)">Autoplay</button>
-	<button onclick="sliderType(this)">Carousel</button><br>
-	<h1 id="text"></h1>
-  </div>
+  
+    <div id="btns">
+	   <!--Title of images-->
+       <input id="nameTitle" placeholder="Type your title for image..."><br><br>
+	   <button onclick="titleImage()"> Add Title</button>
+       <!--autoplay or mechanical-->
+	   <button id="mechanical">Mechanical</button>	
+	   <button id="autoplay">Fide-in / Fide-out</button>
+       <button id="carousel">Carousel</button><br>
+	   <h1 id="text"></h1>
+    </div>
 	 <script src="./js/main.js"></script>
 </body>
 </html>
